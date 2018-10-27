@@ -249,7 +249,7 @@ int main(int argc, char *argv[]){
         uint16_t rip = RIP;
         printf("RIP = %lu\n", rip);
         n++;
-        if (n >= 40) stop = 1;
+        if (n >= 10) stop = 1;
         switch (exit_reas) {
         case VMX_REASON_HLT:
             printf("HLT\n");
